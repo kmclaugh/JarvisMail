@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Label</key>
+	<string>com.kmacapps.GetJmail</string>
+
+	<key>ProgramArguments</key>
+	<array>
+		<string>/Library/Frameworks/Python.framework/Versions/3.2/Resources/Python.app/Contents/MacOS/Python</string>
+		<string>/Users/kevin/Library/Jarvis/JarvisMail/jarvis_mail_collector.py</string>
+	</array>
+	<key>StartInterval</key>
+	<integer>900</integer>
+
+</dict>
+</plist>

@@ -6,11 +6,42 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXFileReference section */
+		0A5A9D82164CA97D00E9EB33 /* jarvis_mail_collector.cpython-32.pyc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "jarvis_mail_collector.cpython-32.pyc"; sourceTree = "<group>"; };
+		0A5A9D83164CA97D00E9EB33 /* jarvismail_methods.cpython-32.pyc */ = {isa = PBXFileReference; lastKnownFileType = file; path = "jarvismail_methods.cpython-32.pyc"; sourceTree = "<group>"; };
+		0A5A9D84164CA97D00E9EB33 /* com.kmacapps.GetJmail copy.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "com.kmacapps.GetJmail copy.plist"; sourceTree = "<group>"; };
+		0A5A9D85164CA97D00E9EB33 /* jarvis_mail_collector.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = jarvis_mail_collector.py; sourceTree = "<group>"; };
+		0A5A9D86164CA97D00E9EB33 /* jarvismail_methods.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = jarvismail_methods.py; sourceTree = "<group>"; };
+		0A5A9D87164CA97D00E9EB33 /* jmail_new_messages.dat */ = {isa = PBXFileReference; lastKnownFileType = file; path = jmail_new_messages.dat; sourceTree = "<group>"; };
+		0A5A9D88164CA97D00E9EB33 /* jmail_querry_list_balance_updater_Kevin.dat */ = {isa = PBXFileReference; lastKnownFileType = file; path = jmail_querry_list_balance_updater_Kevin.dat; sourceTree = "<group>"; };
+		0A5A9D89164CA97D00E9EB33 /* jmail_querry_list_balance_updater_Rachael.dat */ = {isa = PBXFileReference; lastKnownFileType = file; path = jmail_querry_list_balance_updater_Rachael.dat; sourceTree = "<group>"; };
+		0A5A9D8A164CA97D00E9EB33 /* jmail_querry_list_send_rachael_update_checker.dat */ = {isa = PBXFileReference; lastKnownFileType = file; path = jmail_querry_list_send_rachael_update_checker.dat; sourceTree = "<group>"; };
+		0A5A9D8B164CA97D00E9EB33 /* read_pickled_messages.py */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.python; path = read_pickled_messages.py; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
 /* Begin PBXGroup section */
 		0A5A9D74164CA94E00E9EB33 = {
 			isa = PBXGroup;
 			children = (
+				0A5A9D81164CA97D00E9EB33 /* __pycache__ */,
+				0A5A9D84164CA97D00E9EB33 /* com.kmacapps.GetJmail copy.plist */,
+				0A5A9D85164CA97D00E9EB33 /* jarvis_mail_collector.py */,
+				0A5A9D86164CA97D00E9EB33 /* jarvismail_methods.py */,
+				0A5A9D87164CA97D00E9EB33 /* jmail_new_messages.dat */,
+				0A5A9D88164CA97D00E9EB33 /* jmail_querry_list_balance_updater_Kevin.dat */,
+				0A5A9D89164CA97D00E9EB33 /* jmail_querry_list_balance_updater_Rachael.dat */,
+				0A5A9D8A164CA97D00E9EB33 /* jmail_querry_list_send_rachael_update_checker.dat */,
+				0A5A9D8B164CA97D00E9EB33 /* read_pickled_messages.py */,
 			);
+			sourceTree = "<group>";
+		};
+		0A5A9D81164CA97D00E9EB33 /* __pycache__ */ = {
+			isa = PBXGroup;
+			children = (
+				0A5A9D82164CA97D00E9EB33 /* jarvis_mail_collector.cpython-32.pyc */,
+				0A5A9D83164CA97D00E9EB33 /* jarvismail_methods.cpython-32.pyc */,
+			);
+			path = __pycache__;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
