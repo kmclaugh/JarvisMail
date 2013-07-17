@@ -1,6 +1,10 @@
+#!/usr/bin/python3.2
 import sys
-sys.path.append('/Users/kevin/Library/Jarvis/JarvisMethods')
+sys.path.append('/home/kevin/Downloads/Jarvis/JarvisMethods')
 from textsender import textsender as textsender
+
+jarvis_username = 'antonshipley@gmail.com'
+jarvis_password = 'TradecraftOlympic1865'
 
 def createjdate(gmaildatestring):
     import datetime as datetime
@@ -66,6 +70,10 @@ class jarvismessage:
 ##print(h)
     
 def getgmail(username,password,SEARCH_KEY):
+    global jarvis_username
+    global jarvis_password
+    username = jarvis_username
+    password = jarvis_password
     import datetime as datetime
     from email.parser import HeaderParser
     import email, getpass, imaplib, os
@@ -109,8 +117,10 @@ def send_mail(to, subject, text, attach):
     from email.mime.base import MIMEBase
     from email import encoders
 
-    gmail_user = 'antonshipley@gmail.com'
-    gmail_pwd = 'F=kqq/r2'
+    global jarvis_username
+    global jarvis_password
+    gmail_user = jarvis_username
+    gmail_pwd = jarvis_password
     
     msg = MIMEMultipart()
     msg['From'] = gmail_user

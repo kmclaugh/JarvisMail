@@ -1,4 +1,4 @@
-#!/Library/Frameworks/Python.framework/Versions/3.2/bin/python3.2
+#!/usr/bin/python3.2
 import pickle
 
 infile = open('/Users/kevin/Library/Jarvis/JarvisMail/jmail_new_messages.dat','rb')
